@@ -1,0 +1,92 @@
+.loader {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin: auto;
+}
+
+.loader .shark {
+    content: '';
+    position: absolute;
+    left: -200px;
+    width: 300px;
+    height: 300px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    animation: shark 0.7s linear infinite;
+    transform-origin: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+@keyframes shark {
+    0% {background-image: url("/assets/images/loading-shark-sprite/Shark-1.png")}
+      
+    14.29% {background-image: url("/assets/images/loading-shark-sprite/Shark-2.png")}
+
+    28.57% {background-image: url("/assets/images/loading-shark-sprite/Shark-3.png")}
+
+    42.86% {background-image: url("/assets/images/loading-shark-sprite/Shark-4.png")}
+
+    57.14% {background-image: url("/assets/images/loading-shark-sprite/Shark-5.png")}
+
+    71.43% {background-image: url("/assets/images/loading-shark-sprite/Shark-6.png")}
+
+    85.71% {background-image: url("/assets/images/loading-shark-sprite/Shark-7.png")}
+
+    100% {background-image: url("/assets/images/loading-shark-sprite/Shark-8.png")}
+}
+
+.jellyfishs .jellyfish {
+  position: absolute;
+  z-index: 0;
+  top: 8px;
+  width: 120px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: pixelated;
+}
+
+.jellyfishs .jellyfish:nth-child(1) {
+    left: 300px;
+    animation: jellyfish-stage1 0.7s infinite;
+}
+
+.jellyfishs .jellyfish:nth-child(2) {
+    left: 150px;
+    animation: jellyfish-stage1 0.7s infinite;
+}
+
+.jellyfishs .jellyfish:nth-child(3) {
+    left: 0px;
+    animation: jellyfish-stage1 0.7s infinite;
+}
+
+.jellyfishs .jellyfish:nth-child(4) {
+    left: -180px;
+    animation: jellyfish-stage2 0.7s infinite;
+}
+
+@keyframes jellyfish-stage1 {
+    0% {transform: translate(0, 0);
+            background-image: url("/assets/images/loading-jellyfish-sprite/Jellyfish-1.png")}
+    
+    33% {background-image: url("/assets/images/loading-jellyfish-sprite/Jellyfish-2.png")}
+    
+    66% {background-image: url("/assets/images/loading-jellyfish-sprite/Jellyfish-3.png")}
+    
+    100% {transform: translate(-150px, 0);
+            background-image: url("/assets/images/loading-jellyfish-sprite/Jellyfish-4.png")}
+}
+
+@keyframes jellyfish-stage2 {
+  0% {transform: scale(1);
+      background-image: url("/assets/images/loading-jellyfish-sprite/Jellyfish-1.png");
+    }
+    5%{}
+    100% {transform: scale(0); 
+      background-image: url("/assets/images/loading-jellyfish-sprite/Jellyfish-1.png");
+    }
+}

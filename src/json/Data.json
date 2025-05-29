@@ -1,0 +1,8 @@
+{
+  "music_volume": 0.2,
+  "sfx_volume": 0.2,
+  "previous_scene": "preloader",
+  "selected": [0, "asignatura"],
+  "question": 1,
+  "category": "mates"
+}

@@ -1,0 +1,28 @@
+{
+  "anims": [
+    {
+      "key": "jellyfish_red_idle",
+      "type": "frames",
+      "repeat": -1,
+      "frameRate": 8,
+      "frames": [
+        {
+          "key": "jellyfish_red",
+          "frame": "jellyfish_0"
+        },
+        {
+          "key": "jellyfish_red",
+          "frame": "jellyfish_1"
+        },
+        {
+          "key": "jellyfish_red",
+          "frame": "jellyfish_2"
+        },
+        {
+          "key": "jellyfish_red",
+          "frame": "jellyfish_3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+.subject-container {
+    position: absolute;
+    height: fit-content;
+    width: 25rem;
+    top: 62%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-family: 'VT323';
+    font-size: 2rem;
+    color: rgb(255, 224, 145);
+    text-align: center;
+    vertical-align: baseline;
+    background-color: transparent;
+    padding: 0.5em;
+    border-image: url('/assets/images/buttonsImages/Button-5.png') round;
+    border-image-slice: calc(25 / 128 * 100%) calc(25 / 128 * 100%) fill;
+    border-image-width: 1rem 1rem;
+    image-rendering: pixelated;
+}
+
+.question-text {
+    position: absolute;
+    height: fit-content;
+    width: 20rem;
+    top: 5%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    font-family: 'VT323';
+    font-size: 2rem;
+    color: rgb(255, 224, 145);
+    text-align: center;
+    vertical-align: baseline;
+    background-color: transparent;
+    padding: 0.5em;
+    border-image: url('/assets/images/buttonsImages/Button-5.png') round;
+    border-image-slice: calc(25 / 128 * 100%) calc(25 / 128 * 100%) fill;
+    border-image-width: 1rem 1rem;
+    image-rendering: pixelated;
+}
+
+.settings-text {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-family: 'VT323', cursive;
+    font-size: 5rem;
+    letter-spacing: 12px;
+    color: rgb(255, 224, 145);
+    text-align: center;
+
+    text-shadow: 0 0 5px rgb(255, 224, 145),
+                 0 0 10px rgb(255, 224, 145),
+                 0 0 40px rgb(255, 224, 145),
+                 0 0 60px rgb(255, 224, 145);
+
+
+    vertical-align: baseline;
+    background-color: transparent;
+    padding-left: 0.5em;
+    padding-right: 0.3em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-image: url('/assets/images/buttonsImages/Button-5.png') round;
+    border-image-slice: calc(27 / 128 * 100%) calc(25 / 128 * 100%) fill;
+    border-image-width: 1rem 1rem;
+    image-rendering: pixelated;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(251, 255, 0);
+}
+
+.gameOverText {
+    position: absolute;
+    font-family: 'VT323';
+    font-size: 7rem;
+    text-align: center;
+    top: 10%;
+    left: 39.1%;
+    border: 0.30rem solid rgb(255, 224, 145);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 0.25rem;
+    animation: example 1s infinite;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgb(108, 98, 255) 0%, rgba(0, 255, 248, 1) 100%);
+    box-shadow: 0 0 0 0.25rem rgb(255, 183, 0),
+        0 0 0 0.60rem rgb(0, 0, 0);
+}
+
+@keyframes example {
+    0% {
+        color: rgb(0, 108, 158);
+        text-shadow: 0px 0px 20px rgb(7, 0, 95);
+    }
+
+    25% {
+        color: rgb(7, 0, 95);
+        text-shadow: 2px 2px 2px rgb(0, 108, 158);
+        transform: translate(-2px, 1px)
+    }
+
+    40% {
+        color: rgb(0, 108, 158);
+        text-shadow: none;
+        transform: translate(0, 0);
+    }
+
+    50% {
+        color: rgb(7, 0, 95);
+        text-shadow: 5px 5px 2px blue, -5px -5px 2px red;
+        transform: translate(0px, 5px);
+    }
+
+    70% {
+        color: rgb(0, 108, 158);
+        text-shadow: none;
+        transform: translate(0, 0);
+    }
+
+    80% {
+        color: rgb(7, 0, 95);
+        text-shadow: 0 0 20px rgb(7, 0, 95);
+        transform: translate(-2px, 1px);
+    }
+
+    100% {
+        color: rgb(0, 108, 158);
+        text-shadow: none;
+    }
+}
+
+.music-text {
+    position: absolute;
+    height: fit-content;
+    width: 20rem;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-family: 'VT323';
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(255, 224, 145);
+    text-align: center;
+    vertical-align: baseline;
+    background-color: transparent;
+    padding: 0.5em;
+    border-image: url('/assets/images/buttonsImages/Button-5.png') round;
+    border-image-slice: calc(27 / 128 * 100%) calc(25 / 128 * 100%) fill;
+    border-image-width: 1rem 1rem;
+    image-rendering: pixelated;
+}
+
+.sfx-text {
+    position: absolute;
+    height: fit-content;
+    width: 20rem;
+    top: 55%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-family: 'VT323';
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: rgb(255, 224, 145);
+    text-align: center;
+    vertical-align: baseline;
+    background-color: transparent;
+    padding: 0.5em;
+    border-image: url('/assets/images/buttonsImages/Button-5.png') round;
+    border-image-slice: calc(27 / 128 * 100%) calc(25 / 128 * 100%) fill;
+    border-image-width: 1rem 1rem;
+    image-rendering: pixelated;
+}

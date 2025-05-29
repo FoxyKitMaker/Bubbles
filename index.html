@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubbles</title>
+  <link rel="shortcut icon" href="/assets/images/Burbujas_sin_fondo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/button/buttons.css">
+  <link rel="stylesheet" href="/assets/css/texts/texts.css">
+  <link rel="stylesheet" href="/assets/css/background.css">
+  <link rel="stylesheet" href="/assets/css/ui.css">
+  <link rel="stylesheet" href="/assets/css/loading.css">
+
+  <style type="text/css">
+    body {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      font-family: 'VT323';
+      font-weight: normal;
+      font-style: normal;
+      cursor: url("/assets/cursor/Fish/tropical_fish.png"), default
+    }
+    .button-container button {cursor: url("/assets/cursor/Fish/cooked_salmon.png"), pointer}
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+
+  <div class="container"></div>
+  <div class="music-text">Música</div>
+  <div class="sfx-text">Sonidos</div>
+  <div class="settings-text">AJUSTES</div>
+
+  <div class="question-text" id="questionID">Busca: </div>
+
+  <div class="scoreboard" id="scoreboardID">0</div>
+  <div class="sliderBG" id="sliderBGID">
+    <div class="slider" id="sliderID"></div>
+  </div>
+
+  <div class="button-container">
+    <button class="PreviousButton" id="previousButton">Anterior</button>
+    <button class="NextButton" id="nextButton">Siguiente</button>
+    <button class="BackButton" id="backButton">Atrás</button>
+    <button class="SettingsButton" id="settingsButton">Ajustes</button>
+
+    <div class="subject-container">
+      <div id="subject-text">Asignatura: </div>
+    </div>
+
+    <div class="background">
+      <div class="box">
+        <button class="button" id="startButton">EMPEZAR</button>
+        <div class="space">
+          <span style="--i: 31" class="bubbles"></span>
+          <span style="--i: 12" class="bubbles"></span>
+          <span style="--i: 57" class="bubbles"></span>
+          <span style="--i: 93" class="bubbles"></span>
+          <span style="--i: 23" class="bubbles"></span>
+          <span style="--i: 70" class="bubbles"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="gameOverText" id="gameOverTextID">GAMEOVER</div>
+
+  <div class="loader">
+    <div class="shark"></div>
+    <div class="jellyfishs">
+      <div class="jellyfish"></div>
+      <div class="jellyfish"></div>
+      <div class="jellyfish"></div>
+      <div class="jellyfish"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.86.0/dist/phaser.js"></script>
+  <script src="index.js" type="module"></script>
+</body>
+</html>

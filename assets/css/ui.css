@@ -1,0 +1,43 @@
+.scoreboard {
+    position: absolute;
+    height: fit-content;
+    width: 20rem;
+    top: 5%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+    font-family: 'VT323';
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+    background: none;
+    border-image: url('/assets/images/buttonsImages/scoreboard.png') round;
+    border-image-slice: calc(25 / 128 * 100%) calc(25 / 128 * 100%) fill;
+    border-image-outset: 0.85rem;
+    border-image-width: 1rem 1rem;
+    image-rendering: pixelated;
+}
+
+.sliderBG {
+    position: absolute;
+    height: 3rem;
+    width: 23rem;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/assets/images/SpearFishing/sprites/o2Tank.png');
+    background-size: cover;
+    image-rendering: pixelated;
+}
+
+.slider {
+    position: absolute;
+    height: 1.5rem;
+    width: 0rem;
+    top: 29%;
+    left: 10.57%;
+    border-image: url('/assets/images/SpearFishing/sprites/o2Slider.png') repeat;
+    border-image-slice: 20 30 20 30 fill;
+    border-image-width: 1rem 1rem;
+    image-rendering: pixelated;
+    transition: width 0.5s ease;
+}

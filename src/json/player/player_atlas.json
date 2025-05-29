@@ -1,0 +1,372 @@
+{
+  "frames": [
+    {
+      "filename": "diver_3_0",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 0,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_1",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 32,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_2",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 64,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_3",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 96,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_4",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 128,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_5",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 160,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_6",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 192,
+        "y": 0
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_7",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 0,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_8",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 32,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "diver_3_9",
+      "frame": {
+        "w": 32,
+        "h": 32,
+        "x": 64,
+        "y": 32
+      },
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+        "filename": "diver_3_10",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 96,
+            "y": 32
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_11",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 128,
+            "y": 32
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_12",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 160,
+            "y": 32
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_13",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 192,
+            "y": 32
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_14",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 0,
+            "y": 64
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_15",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 32,
+            "y": 64
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_16",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 64,
+            "y": 64
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_17",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 96,
+            "y": 64
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_18",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 128,
+            "y": 64
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_19",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 160,
+            "y": 64
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_20",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 192,
+            "y": 64
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_21",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 0,
+            "y": 96
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_22",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 32,
+            "y": 96
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_23",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 64,
+            "y": 96
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_24",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 96,
+            "y": 96
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_25",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 128,
+            "y": 96
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_26",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 160,
+            "y": 96
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    },
+    {
+        "filename": "diver_3_27",
+        "frame": {
+            "w": 32,
+            "h": 32,
+            "x": 192,
+            "y": 96
+        },
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        }
+    }
+  ],
+  "meta": {
+      "description": "Atlas generado con Atlas Packer Gamma V2",
+      "web": "https://gammafp.github.io/atlas-packer-phaser/"
+  }
+}

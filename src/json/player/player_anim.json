@@ -1,0 +1,28 @@
+{
+  "anims": [
+    {
+      "key": "movement",
+      "type": "frames",
+      "repeat": -1,
+      "frameRate": 7,
+      "frames": [
+        {
+          "key": "player",
+          "frame": "diver_3_22"
+        },
+        {
+          "key": "player",
+          "frame": "diver_3_23"
+        },
+        {
+          "key": "player",
+          "frame": "diver_3_24"
+        },
+        {
+          "key": "player",
+          "frame": "diver_3_25"
+        }
+      ]
+    }
+  ]
+}

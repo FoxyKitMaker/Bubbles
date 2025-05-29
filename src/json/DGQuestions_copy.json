@@ -1,0 +1,183 @@
+[
+  {
+    "Matemáticas": {
+      "1": {
+        "text": "medusa",
+        "correctas": [
+          "Ejemplo",
+          "de",
+          "monsturo"
+        ],
+        "incorrectas": [
+          "Ejemplo",
+          "de",
+          "heroe"
+        ]
+      },
+      "2": {
+        "text": "No",
+        "correctas": [
+          "Ejemplo",
+          "de",
+          "co"
+        ],
+        "incorrectas": [
+          "Ejemplo",
+          "de",
+          "in"
+        ]
+      },
+      "3": {
+        "text": "asd",
+        "correctas": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "9"
+        ],
+        "incorrectas": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ]
+      },
+      "color": "#0040ff"
+    }
+  },
+  {
+    "Química": {
+      "1": {
+        "text": "¿Cual fué el elemento por el que la alquimia existió?",
+        "correctas": [
+          "Oro"
+        ],
+        "incorrectas": [
+          "Plata",
+          "Platino",
+          "Hierro",
+          "Hidrógeno"
+        ]
+      },
+      "color": "#00e1ff"
+    }
+  },
+  {
+    "Lengua": {
+      "1": {
+        "text": "Palabras con \"A\"",
+        "correctas": [
+          "Caminón",
+          "Cara",
+          "Vaca",
+          "Casa",
+          "Carretera"
+        ],
+        "incorrectas": [
+          "Coco",
+          "Melón",
+          "Músculo",
+          "Mierdón"
+        ]
+      },
+      "2": {
+        "text": "Palabras con \"A\"",
+        "correctas": [
+          "Caminón",
+          "Cara",
+          "Vaca",
+          "Casa",
+          "Carretera"
+        ],
+        "incorrectas": [
+          "Coco",
+          "Melón",
+          "Músculo",
+          "Mierdón"
+        ]
+      },
+      "3": {
+        "text": "Palabras con \"A\"",
+        "correctas": [
+          "Caminón",
+          "Cara",
+          "Vaca",
+          "Casa",
+          "Carretera"
+        ],
+        "incorrectas": [
+          "Coco",
+          "Melón",
+          "Músculo",
+          "Mierdón"
+        ]
+      },
+      "4": {
+        "text": "Palabras con \"A\"",
+        "correctas": [
+          "Caminón",
+          "Cara",
+          "Vaca",
+          "Casa",
+          "Carretera"
+        ],
+        "incorrectas": [
+          "Coco",
+          "Melón",
+          "Músculo",
+          "Mierdón"
+        ]
+      },
+      "5": {
+        "text": "Palabras con \"A\"",
+        "correctas": [
+          "Caminón",
+          "Cara",
+          "Vaca",
+          "Casa",
+          "Carretera"
+        ],
+        "incorrectas": [
+          "Coco",
+          "Melón",
+          "Músculo",
+          "Mierdón"
+        ]
+      },
+      "6": {
+        "text": "Palabras con \"A\"",
+        "correctas": [
+          "Caminón",
+          "Cara",
+          "Vaca",
+          "Casa",
+          "Carretera"
+        ],
+        "incorrectas": [
+          "Coco",
+          "Melón",
+          "Músculo",
+          "Mierdón"
+        ]
+      },
+      "7": {
+        "text": "Palabras con \"A\"",
+        "correctas": [
+          "Caminón",
+          "Cara",
+          "Vaca",
+          "Casa",
+          "Carretera"
+        ],
+        "incorrectas": [
+          "Coco",
+          "Melón",
+          "Músculo",
+          "Mierdón"
+        ]
+      },
+      "color": "#ff0000"
+    }
+  }
+]

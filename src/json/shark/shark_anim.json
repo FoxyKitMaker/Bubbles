@@ -1,0 +1,45 @@
+{
+  "anims": [
+    {
+      "key": "attack",
+      "type": "frames",
+      "repeat": -1,
+      "frameRate": 7,
+      "startFrame": 3,
+      "frames": [
+        {
+          "key": "shark",
+          "frame": "shark_8"
+        },
+        {
+          "key": "shark",
+          "frame": "shark_9"
+        },
+        {
+          "key": "shark",
+          "frame": "shark_10"
+        },
+        {
+          "key": "shark",
+          "frame": "shark_11"
+        },
+        {
+          "key": "shark",
+          "frame": "shark_12"
+        },
+        {
+          "key": "shark",
+          "frame": "shark_13"
+        },
+        {
+          "key": "shark",
+          "frame": "shark_14"
+        },
+        {
+          "key": "shark",
+          "frame": "shark_15"
+        }
+      ]
+    }
+  ]
+}

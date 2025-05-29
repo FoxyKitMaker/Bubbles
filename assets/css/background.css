@@ -1,0 +1,7 @@
+body, html {
+    background-image: url('/assets/images/Animated-Background.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    background-repeat: no-repeat;
+}

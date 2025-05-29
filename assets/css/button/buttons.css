@@ -1,0 +1,229 @@
+.box {
+  --clr-shadow__border: #008fbb;
+  --clr-shadow__hover__border: #faf5ab;
+  --clr-text: #00ffff;
+  --clr-space-gr: #003fb4;
+  --clr-space: #00aeff;
+  --clr-star: #00aeff;
+  --clr-star-bd: #ffffff;
+  --size: 1.5rem;
+  position: absolute;
+  height: 6rem;
+  width: 30rem;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.button {
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+  font-size: 5rem;
+  font-family: 'VT323';
+  letter-spacing: 1rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--clr-text);
+  text-shadow: 2px 0px var(--clr-shadow__border), 0px 2px var(--clr-shadow__border),
+    -2px 0px var(--clr-shadow__border), 0px -2px var(--clr-shadow__border);
+  text-align: center;
+  border-image: url('/assets/images/buttonsImages/Button-1.png') round;
+  border-image-slice: calc(6 / 32 * 100%) calc(6 / 32 * 100%);
+  border-image-width: 15px 15px;
+  image-rendering: pixelated;
+}
+
+.button:hover {
+  color: #0077ff;
+  /* text-shadow: 2px 0px var(--clr-shadow__hover__border), 0px 2px var(--clr-shadow__hover__border),
+    -2px 0px var(--clr-shadow__hover__border), 0px -2px var(--clr-shadow__hover__border); */
+    text-shadow: 0 0 5px rgb(255, 224, 145),
+                 0 0 10px rgb(255, 224, 145),
+                 0 0 40px rgb(255, 224, 145),
+                 0 0 60px rgb(255, 224, 145),
+                 0 0 80px rgb(255, 224, 145),
+                 0 0 100px rgb(255, 224, 145);
+}
+
+.space {
+  height: 80%;
+  width: 100%;
+  bottom: 10%;
+  left: 0%;
+  gap: 1.5rem;
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  display: flex;
+  background: linear-gradient(160deg, var(--clr-space), var(--clr-space-gr));
+}
+
+.box:hover .space {
+  opacity: 1;
+}
+
+.bubbles {
+  width: 0.5rem;
+  height: 0.5rem;
+  transition: 0.1s;
+  border-radius: 22.5rem;
+  border: 0.01rem, solid;
+  position: relative;
+  background-color: var(--clr-star);
+  border-color: var(--clr-star-bd);
+  animation: bubble-animation calc(0.2s * var(--i)) linear infinite;
+}
+
+@keyframes bubble-animation {
+  0% {
+    transform: rotate(180deg) translateY(calc(-52% * var(--i)));
+  }
+
+  100% {
+    transform: rotate(180deg) translateY(calc(52% * var(--i)));
+  }
+}
+
+/* ============================================================================================== */
+.NextButton {
+  cursor: pointer;
+  position: absolute;
+  width: 15rem;
+  top: 60%;
+  left: 70%;
+  transform: translate(-20%, -20%);
+  padding: 0.9rem;
+  font-family: 'VT323';
+  font-size: 2rem;
+  font-weight: 900;
+  background: none;
+  border-image: url('/assets/images/buttonsImages/Button-3.png') round;
+  border-image-slice: calc(60 / 350 * 100%) calc(15 / 120 * 100%) fill;
+  border-image-width: 1rem 1rem;
+  image-rendering: pixelated;
+}
+
+.NextButton:hover {
+  color: white;
+  border-image: url('/assets/images/buttonsImages/Button-1.png') round;
+  border-image-slice: calc(6 / 32 * 100%) calc(6 / 32 * 100%) fill;
+  border-image-width: 1rem 1rem;
+  image-rendering: pixelated;
+}
+
+.NextButton:active {
+  border-left: 0.2rem solid rgb(255, 170, 110);
+  border-top: 0.2rem solid rgb(255, 170, 110);
+  border-right: 0.2rem solid rgb(255, 224, 145);
+  border-bottom: 0.2rem solid rgb(255, 224, 145);
+}
+
+/* ============================================================================================== */
+.PreviousButton {
+  cursor: pointer;
+  position: absolute;
+  width: 15rem;
+  top: 60%;
+  left: 51.5%;
+  transform: translate(-20%, -20%);
+  padding: 0.9rem;
+  font-family: 'VT323';
+  font-size: 2rem;
+  font-weight: 900;
+  background: none;
+  border-image: url('/assets/images/buttonsImages/Button-3.png') round;
+  border-image-slice: calc(60 / 350 * 100%) calc(15 / 120 * 100%) fill;
+  border-image-width: 1rem 1rem;
+  image-rendering: pixelated;
+}
+
+.PreviousButton:hover {
+  color: white;
+  border-image: url('/assets/images/buttonsImages/Button-1.png') round;
+  border-image-slice: calc(6 / 32 * 100%) calc(6 / 32 * 100%) fill;
+  border-image-width: 1rem 1rem;
+  image-rendering: pixelated;
+}
+
+.PreviousButton:active {
+  border-left: 0.2rem solid rgb(255, 170, 110);
+  border-top: 0.2rem solid rgb(255, 170, 110);
+  border-right: 0.2rem solid rgb(255, 224, 145);
+  border-bottom: 0.2rem solid rgb(255, 224, 145);
+}
+
+/* ============================================================================================== */
+.BackButton {
+  cursor: pointer;
+  position: absolute;
+  width: 15rem;
+  top: 90%;
+  left: 76%;
+  transform: translate(-20%, -20%);
+  padding: 0.9rem;
+  font-family: 'VT323';
+  font-size: 2rem;
+  font-weight: 900;
+  background: none;
+  border-image: url('/assets/images/buttonsImages/Button-3.png') round;
+  border-image-slice: calc(60 / 350 * 100%) calc(15 / 120 * 100%) fill;
+  border-image-width: 1rem 1rem;
+  image-rendering: pixelated;
+}
+
+.BackButton:hover {
+  color: white;
+  border-image: url('/assets/images/buttonsImages/Button-1.png') round;
+  border-image-slice: calc(6 / 32 * 100%) calc(6 / 32 * 100%) fill;
+  border-image-width: 15px 15px;
+  image-rendering: pixelated;
+}
+
+.BackButton:active {
+  border-left: 0.2rem solid rgb(255, 170, 110);
+  border-top: 0.2rem solid rgb(255, 170, 110);
+  border-right: 0.2rem solid rgb(255, 224, 145);
+  border-bottom: 0.2rem solid rgb(255, 224, 145);
+}
+
+/* ============================================================================================== */
+.SettingsButton {
+  cursor: pointer;
+  position: absolute;
+  width: 15rem;
+  top: 90%;
+  left: 10%;
+  transform: translate(-20%, -20%);
+  padding: 0.9rem;
+  font-family: 'VT323';
+  font-size: 2rem;
+  font-weight: 900;
+  background: none;
+  border-image: url('/assets/images/buttonsImages/Button-3.png') round;
+  border-image-slice: calc(60 / 350 * 100%) calc(15 / 120 * 100%) fill;
+  border-image-width: 1rem 1rem;
+  image-rendering: pixelated;
+}
+
+.SettingsButton:hover {
+  color: white;
+  border-image: url('/assets/images/buttonsImages/Button-1.png') round;
+  border-image-slice: calc(6 / 32 * 100%) calc(6 / 32 * 100%) fill;
+  border-image-width: 1rem 1rem;
+  image-rendering: pixelated;
+}
+
+.SettingsButton:active {
+  border-left: 0.2rem solid rgb(255, 170, 110);
+  border-top: 0.2rem solid rgb(255, 170, 110);
+  border-right: 0.2rem solid rgb(255, 224, 145);
+  border-bottom: 0.2rem solid rgb(255, 224, 145);
+}
+
+/* ============================================================================================== */
